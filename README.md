@@ -1,0 +1,3 @@
+# React + Vite
+
+This is a template of a minimalist e-commerce site ...
