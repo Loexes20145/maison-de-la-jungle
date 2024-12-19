@@ -9,6 +9,10 @@ body, p {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   background: #f2f2f2;
   max-width: 1440px;

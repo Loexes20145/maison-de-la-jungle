@@ -13,7 +13,7 @@ const articles = [
     id: Math.floor(Math.random()*99999999),
     name: 'Ficus Lyrata',
     price: 16,
-    imageUrl: '/assets/ficus-lyrata.png',
+    imageUrl: '/assets/ficus-lyrata.jpg',
     rate1: 1,
     rate2: 3
   },
@@ -29,7 +29,7 @@ const articles = [
     id: Math.floor(Math.random()*99999999),
     name: 'Calathea',
     price: 20,
-    imageUrl: '/assets/calathea.jpeg',
+    imageUrl: '/assets/calathea.jpg',
     rate1: 3,
     rate2: 2
   },
