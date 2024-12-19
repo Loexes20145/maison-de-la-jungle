@@ -4,8 +4,11 @@ html {
   font-family: 'Roboto';
 }
 
-body {
+body, p {
   margin: 0;
+}
+
+body {
   background: #f2f2f2;
 }
 
@@ -31,12 +34,78 @@ body {
 }
 
 .main {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
 }
 
-.main .main__Aside {
+.main .mainAside {
   background: #00B875;
   width: 10%;
   height: auto;
+}
+
+.main .mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.main .mainSection__Title {
+  margin-bottom: 15px;
+}
+
+.main .mainSection__Content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 9px 64px;
+}
+
+.main .article {
+  width: 253px;
+  height: 343px;
+  background: #f1f1f1;
+  border-radius: 14px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article .article__Info {
+  position: relative;
+}
+
+.article .article__Info__Image {
+  width: 253px;
+  height: 253px;
+  border-radius: 14px;
+}
+
+.article .article__Info__Price {
+  background: #00B875;
+  padding: 8px;
+  border-radius: 14px 14px 14px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: inherit;
+  color: #fff;
+}
+
+.article .article__Rate {
+  display: flex;
+  flex-direction: column;
+}
+
+.article .article__Rate .rate1 {
+  color: #0BA6DD;
+}
+
+.article .article__Rate .rate2 {
+  color: #FEBA1D;
 }
