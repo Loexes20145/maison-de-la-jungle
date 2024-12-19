@@ -36,6 +36,14 @@ body {
   border-top: 2px solid #000;
 }
 
+.footer, .footer__Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+}
+
 .main {
   /* height: 100vh; */
   display: flex;
